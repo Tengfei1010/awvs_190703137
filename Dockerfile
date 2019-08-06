@@ -23,7 +23,7 @@ RUN sh -c '/bin/echo -e "\nyes\nubuntu\nadmin@test.com\nTest123...\nTest123...\n
 # del sh
 RUN rm acunetix_trial.sh
 
-WORKDIR /home/acunetix/.acunetix_trial/v_190703137/scanner
+WORKDIR /home/acunetix/.acunetix_trial/v_190325161/scanner
 COPY ./patch_awvs .
 COPY ./wvsc .
 USER root
