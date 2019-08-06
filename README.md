@@ -1,9 +1,8 @@
-# Awvs 2019_07 Docker 
-基于https://github.com/Leezj9671/SecDevices_docker项目修改
+# Awvs 2019_07 Docker
+基于 https://github.com/Leezj9671/SecDevices_docker 项目修改
 
-
-下载最新awvs保存到当前目录: https://s3.amazonaws.com/a280ccaaf904330a389db759e6275285/acunetix_trial.sh
-
+下载awvs保存到当前目录: https://pan.baidu.com/s/1P8KKBtXqi-_n2egxp9pLCQ 提取码: m9h3
+refs: https://xs3c.co/archives/643
 
 ```
 生成镜像
@@ -19,11 +18,10 @@ docker exec -it -u root wvs07 /bin/bash
 ./patch_awvs
 ```
 
+登录awvs平台: http://vpsip:51443/
 
-    登录awvs平台: http://vpsip:51443/
+账号密码:
+admin@test.com
+Test123...
 
-    账号密码:
-    admin@test.com
-    Test123...
-
-    awvs api调用: awvs_api.py
+awvs api调用: awvs_api.py
